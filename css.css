@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    background-color:darkcyan;
+    color: greenyellow;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: steelblue;
+    border: 3px solid greenyellow;
+}
+
+label {
+    background-color: steelblue;
+    border: 3px solid greenyellow;
+}
+
+.oculto {
+
+    display: none;
+    
+}
