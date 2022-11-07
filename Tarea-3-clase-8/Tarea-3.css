@@ -1,0 +1,24 @@
+*{
+    background-color:darkcyan;
+    color: greenyellow;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: steelblue;
+    border: 3px solid greenyellow;
+    border-radius: 6px;
+    margin: auto;
+}
+
+label {
+    background-color: steelblue;
+    border: 3px solid greenyellow;
+    border-radius: 6px;
+}
+
+.oculto {
+
+    display: none;
+    
+}
