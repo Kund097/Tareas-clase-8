@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarea 3 clase 8</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Tarea-3.css'>
+</head>
+<body>
+    <h1>Bienvenido!</h1>
+    <p><strong><em>Calcular salarios de cada integrante de la familia</em></strong></p>
+    <p>Ingrese los salarios anules de cada integrante, para calcular: <strong>el mayor salario, el menor, el promedio y el promedio mensual</strong></p>
+    <form name="formulario">
+        <input type="button" value="Agregar Familiar" id="agregar-familiar">
+        <input type="button" value="Quitar Familiar" id="borrar-familiar">
+        <input type="reset" value="Borrar todo" id="borrar-todo">
+        <input type="button" value="Calcular" id="calcular">
+
+
+    </form>
+        <div id="resultado" class="oculto">
+            <strong><li id="mayor-salario-anual"></li></strong>
+            <strong><li id="menor-salario-anual"></li></strong>
+            <strong><li id="promedio-anual"></li></strong>
+            <strong><li id="promedio-mensual"></li></strong>
+        </div>
+
+    <script src="Tarea-3-clase-8.js"></script>
+    <script src="Tarea-3-clase-8-calculos.js"></script>
+    <script src="Tarea-3-clase-8-validaciones.js"></script>
+    <script src="Tarea-3-clase-8-probar-validacion.js"></script>
+</body>
+</html>
